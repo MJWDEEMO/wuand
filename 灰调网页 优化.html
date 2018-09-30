@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>灰调网页--优化</title>
+<style>
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 139px;
+	width: 100%;
+	background-color: #333;
+	background-size: 100%;
+	position: fixed;
+	overflow: auto;
+}
+li{
+	float: left;
+}
+li a {
+    display: block;
+    color: #666;
+    font-size: 24px;
+    text-align: center;
+    padding: 55px 85px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+li img.logotext{
+	padding-top: 25px;
+}
+li img.logobackground{
+	padding-top: 10px;
+	padding-right:20px;
+}
+</style>	
+		
+		
+		
+</head>
+<body>
+	<ul>
+		<li><a class="active" href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><img class="logotext" src="my fulio.png"/></li>
+        <li><img class="logobackground" src="my fulio background.png"/></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+	</body>
+</html>
